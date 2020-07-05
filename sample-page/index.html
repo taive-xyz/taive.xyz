@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="UTF-8"><title>Sample Page – Tải Về</title><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://taive.xyz/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="https://taive.xyz/wp-content/themes/crush/includes/style.css" rel="stylesheet" type="text/css"><link href="https://taive.xyz/wp-content/themes/crush/images/apple-touch-icon.png" rel="apple-touch-icon"><link rel="shortcut icon" href="https://taive.xyz/wp-content/themes/crush/images/favicon.ico"><meta property="fb:admins" content="100028575581698"><meta property="fb:app_id" content="2495532830526806"></head><body>
+<div class="mbody">
+<div class="header">
+    <h1 class="logo"><a href="/" title="Just another WordPress site">taive.xyz</a></h1>
+<div class="search">
+<form action="/">
+  <input name="s" placeholder="Tìm kiếm..." class="s" type="text"><input type="submit" class="button" value="Tìm"></form>
+</div>
+</div>
+<div class="main"><div class="right"><div class="right_content">	<div class="menu"> <div id="breadcrumbs"><span><a href="https://taive.xyz/"><i class="icon-gamepad"></i> Trang chủ</a></span> » <span><span class="breadcrumb_last">Sample Page</span></span></div></div>	<h1 class="list1"><a href="https://taive.xyz/sample-page/" title="Sample Page">Sample Page</a></h1>
+	<div class="list1">
+<p>This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin’ caught in the rain.)</p></blockquote>
+
+
+
+<p>…or something like this:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>
+
+
+
+<p>As a new WordPress user, you should go to <a href="https://taive.xyz/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>
+</div>
+	</div>
+<h3 class="menu">Xem nhiều nhất</h3>
+        	<div class="item">
+   <div class="item1">
+      <a href="https://taive.xyz/2020/07/05/hello-world__trashed/" title="Hello world!"></a>
+      <a class="taive" href="https://taive.xyz/2020/07/05/hello-world__trashed/#down-box" title="Tải về" target="_blank"> <i class="icon-download"></i> Tải về</a>
+      <p class="tieude"><a href="https://taive.xyz/2020/07/05/hello-world__trashed/" title="Hello world!">Hello world!</a></p>
+         <p>
+                     </p>
+         <p>
+               <span class="kichthuoc"><i class="icon-floppy"></i></span>
+               <span class="phienban mright"><i class="icon-qrcode"></i>Sample P</span>
+         </p>
+   </div>
+</div><div class="fix"></div>
+</div></div><div class="left">
+   <div class="left_content">
+      <h3 class="menu"><i class="icon-tags"></i> Chuyên mục</h3>
+   </div>
+   <nav class="navigation"><div class="mainmenu"><ul><li class="page_item page-item-2 current_page_item"><a href="https://taive.xyz/sample-page/" aria-current="page">Sample Page</a></li>
+</ul></div>
+   </nav><h3 class="menu"><i class="icon-bell-alt"></i> Bài viết ngẫu nhiên</h3>
+      <a href="https://taive.xyz/2020/07/05/game-so-1/" title="Game số 1"><div class="list">Game số 1</div></a>
+   </div>
+</div><div class="fix"></div>
+<span id="backtotop" class="icon-monument" onclick="scrollToTop(1000);"></span>
+    <div class="footer">
+        <h2>  Sample Page</h2>
+        <b><a href="https://mrsoi.com" title="Mr Sói" target="_blank">Mr Sói</a></b> & <b>WordPress</b><br>
+        Bản quyền thuộc về <a href="https://taive.xyz" title="taive.xyz"><b>taive.xyz</b></a> - <a href="/sitemap.xml" title="taive.xyz sitemap"><b>Sitemap</b></a>
+    </div>
+
+<script>
+window.onscroll = function() {scrollHideTotop()};
+function scrollHideTotop() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backtotop").style.display = "block";
+    } else {
+        document.getElementById("backtotop").style.display = "none";
+    }
+}
+function scrollToTop(scrollDuration) {
+    var cosParameter = window.scrollY / 2,
+        scrollCount = 0,
+        oldTimestamp = performance.now();
+    function step (newTimestamp) {
+        scrollCount += Math.PI / (scrollDuration / (newTimestamp - oldTimestamp));
+        if (scrollCount >= Math.PI) window.scrollTo(0, 0);
+        if (window.scrollY === 0) return;
+        window.scrollTo(0, Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
+        oldTimestamp = newTimestamp;
+        window.requestAnimationFrame(step);
+    }
+    window.requestAnimationFrame(step);
+}
+</script></body></html>
